@@ -69,3 +69,5 @@ INSERT INTO FuelUsages(plant_ID, fuel_type_ID) VALUES
 
 INSERT INTO FacilityTechnologies(plant_ID, technology_ID) VALUES 
 (1, 2), (2, 4), (3, 1);
+
+DROP TABLE facilitytechnologies, fuelusages, facilities, technologies, fueltypes, regions;
